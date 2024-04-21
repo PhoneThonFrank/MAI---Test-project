@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myanmar Airways International|Project by Frank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo_nobackground.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="#">
+        <p style="background-color: #034ea2; color: white; text-align: center; padding-top: 5px; padding-bottom: 5px;">
+            <i class="fa fa-info"
+                style="margin-right: 10px; background-color: #f5d80c; color: black; width: 25px; height: 20px; padding-top: 5px; border-radius: 50%;"></i>COVID-19
+            Travel Advisory
+        </p>
+    </a>
+    <header>
+        <div id="logo"> <a href="#"><img src="./images/MAI-logo-1.png" alt="logo" width="200vw" title="MAI Logo"></a>
+        </div>
+        <div id="accountbtns"><button>🇬🇧️ English</button><button>🇲🇲️ Burmese</button></div>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Plan a trip</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Special offers</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+    <div id="plan">
+        <h2
+            style="background-color: #034ea2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            Plan a trip</h2>
+        <div id="form">
+            <h1 id="formtext">Ready for takeoff? Plan your trip with us today and let the adventure begin!✈️</h1><br>
+            <select id="ty" name="ty">
+                <option value="">Flight Type</option>
+                <option value="one">One Way</option>
+                <option value="round">Round Trip</option>
+                <option value="multi">Multi City</option>
+            </select> <br><br>
+            <select id="cityf" name="citylistf">
+                <option value="">From</option>
+                <option value="Yangon">Yangon</option>
+                <option value="Mandalay">Mandalay</option>
+                <option value="Nay Pyi Taw">Nay Pyi Taw</option>
+            </select> <br><br>
+
+            <select id="cityt" name="citylistt">
+                <option value="">To</option>
+                <option value="Yangon">Yangon</option>
+                <option value="Mandalay">Mandalay</option>
+                <option value="Nay Pyi Taw">Nay Pyi Taw</option>
+            </select> <br><br>
+
+            <input type="text" placeholder="Departure Date" onfocus="(this.type='date')"> <br><br>
+
+            <input type="text" placeholder="Return Date" onfocus="(this.type='date')"> <br><br>
+            <select id="pass" name="pass">
+                <option value="">Passenger Type</option>
+                <option value="child">Infant</option>
+                <option value="Mandalay">Child</option>
+                <option value="Nay Pyi Taw">Adult</option>
+            </select> <br><br>
+            <input type="text" placeholder="Promotional Code"> <br><br>
+            <select id="class" name="class">
+                <option value="">Cabin Class</option>
+                <option value="eco">Economy</option>
+                <option value="bus">Business</option>
+            </select><br><br><input type="submit" value="Search for flight">
+
+        </div>
+    </div>
+
+    <h1 style="color: #084fa2; text-align: center; margin-top: 10px;">Promotions</h1>
+    <div id="highlights">
+        <div class="highbox" style="background-image: url('./images/seoul.jpg');">
+            <h2
+                style="background-color: #084fa2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                Seoul</h2>
+
+            <div class="highboxinfo">
+                <h3>Yangon <i class="fa fa-fighter-jet" aria-hidden="true"></i></h3>
+                <h1 style="color: rgb(137, 222, 248);">Seoul</h1><br>
+                <h4>Flight Type: One Way</h4><br>
+                <h4>Price: $373.25</h4>
+            </div>
+        </div>
+        <div class="highbox" style="background-image: url('./images/kualalumpur.png');">
+            <h2
+                style="background-color: #084fa2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                Kuala Lumpur</h2>
+
+            <div class="highboxinfo">
+                <h3>Yangon <i class="fa fa-fighter-jet" aria-hidden="true"></i></h3>
+                <h1 style="color: rgb(137, 222, 248);">Kuala Lumpur</h1><br>
+                <h4>Flight Type: One Way</h4><br>
+                <h4>Price: $166.25</h4>
+            </div>
+        </div>
+        <div class="highbox" style="background-image: url('./images/bangkok.png');">
+            <h2
+                style="background-color: #084fa2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                Bangkok</h2>
+
+            <div class="highboxinfo">
+                <h3>Yangon <i class="fa fa-fighter-jet" aria-hidden="true"></i></h3>
+                <h1 style="color: rgb(137, 222, 248);">Bangkok</h1><br>
+                <h4>Flight Type: One Way</h4><br>
+                <h4>Price: $58.65</h4>
+            </div>
+        </div>
+    </div>
+    <div id="addon">
+        <h2
+            style="background-color: #034ea2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+            Add-On</h2>
+
+        <div id="conaddon">
+            <h1 class="addtext">We offer a variety of Add-On options!</h1><br>
+            <div class="addonrow">
+                <div class="add"><img src="./images/ic_baggage.svg" alt="baggage" width="100"><br><br>
+                    <p>Extra baggage</p>
+                </div>
+                <div class="add"><img src="./images/ic_seat.svg" alt="baggage" width="100"><br><br>
+                    <p>Seat Selection</p>
+                </div>
+                <div class="add"><img src="./images/ic_meal.svg" alt="baggage" width="100"><br><br>
+                    <p>Meal Selection</p>
+                </div>
+            </div>
+            <div class="addonrow">
+                <div class="add"><img src="./images/ic_vip.svg" alt="baggage" width="100"><br><br>
+                    <p>MAI Hsoong Kha Service</p>
+                </div>
+                <div class="add"><img src="./images/ic_wheelchair.svg" alt="baggage" width="100"><br><br>
+                    <p>Wheelchair</p>
+                </div>
+                <div class="add"><img src="./images/ic_hospital.svg" alt="baggage" width="100"><br><br>
+                    <p>Healthcare</p>
+                </div>
+            </div>
+            <div class="addonrow">
+                <div class="add"><img src="./images/e-Visa_Logo_99x_116.png" alt="baggage" width="100"><br><br>
+                    <p>e-Visa</p>
+                </div>
+                <div class="add"><img src="./images/MAI_visa.png" alt="baggage" width="100"><br><br>
+                    <p>MAI Visa</p>
+                </div>
+                <div class="add"><img src="./images/SE.png" alt="baggage" width="100"><br><br>
+                    <p>Sky Emporium</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="concontact">
+            <h2
+                style="background-color: #034ea2; color: white; text-align: center; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                Contact Us</h2>
+            <div id="conform">
+                <div id="social">
+                    <div id="marsocdiv">
+                        <ul>
+                            <li><i class="fa fa-facebook socicon"
+                                    style="width: 60px; height: 45px; background-color: #0865ff; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white;"></i>
+                            </li>
+                            <li><i class="fa fa-twitter socicon"
+                                    style="width: 60px; height: 45px; background-color: #0865ff; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white;"></i>
+                            </li>
+                            <li><i class="fa fa-instagram socicon"
+                                    style="width: 60px; height: 45px; background-image: linear-gradient(#fd01aa, #ffc300); border-radius: 50%; padding-top: 15px; font-size: 30px; color: white;"></i>
+                            </li>
+                            <li><i class="fa fa-linkedin socicon"
+                                    style="width: 60px; height: 45px; background-color:#0a66c2 ; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white;"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="ortextcon">OR</div>
+                <div id="formcon">
+                    <form>
+                        <h1>Contact Form</h1><br><br>
+                        <input type="text" placeholder="Name"><br><br>
+                        <input type="tel" placeholder="Phone Number"><br><br>
+                        <textarea placeholder="Enter your message"></textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <div id="phonesocicon"> <i class="fa fa-facebook socicon"
+                            style="width: 60px; height: 45px; background-color: #0865ff; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white; text-align: center;"></i>
+
+                        <i class="fa fa-twitter socicon"
+                            style="width: 60px; height: 45px; background-color: #0865ff; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white; text-align: center;"></i>
+
+                        <i class="fa fa-instagram socicon"
+                            style="width: 60px; height: 45px; background-image: linear-gradient(#fd01aa, #ffc300); border-radius: 50%; padding-top: 15px; font-size: 30px; color: white; text-align: center;"></i>
+
+                        <i class="fa fa-linkedin socicon"
+                            style="width: 60px; height: 45px; background-color:#0a66c2 ; border-radius: 50%; padding-top: 15px; font-size: 30px; color: white; text-align: center;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footsec">
+            <h3>About MAI</h3><br>
+            <a href="">
+                <p>About us</p>
+            </a>
+            <a href="">
+                <p>Route Map</p>
+            </a>
+            <a href="">
+                <p>Our Destinations</p>
+            </a>
+            <a href="">
+                <p>Our Fleet</p>
+            </a>
+            <a href="">
+                <p>Codeshare Partners</p>
+            </a>
+            <a href="">
+                <p>Career Opportunities</p>
+            </a><br><br>
+            <h3>Our Services</h3><br>
+            <a href="">
+                <p>Ground Handling, Cargo, Charter</p>
+            </a><br><br>
+            <h3>Contact Us</h3><br>
+            <a href="">
+                <p>Our Offices</p>
+            </a>
+            <a href="">
+                <p>General Enquiry</p>
+            </a>
+            <a href="">
+                <p>Refund Form</p>
+            </a>
+        </div>
+        <div class="footsec">
+            <h3>Plan Your Journey</h3><br>
+            <a href="">
+                <p>Flight Schedules</p>
+            </a>
+            <a href="">
+                <p>Terms & Conditions</p>
+            </a>
+            <a href="">
+                <p>General Conditions of Carriage</p>
+            </a>
+            <a href="">
+                <p>General FAQ</p>
+            </a><br><br>
+            <h3>At the Airport</h3><br>
+            <a href="">
+                <p>Check-in Procedures</p>
+            </a>
+            <a href="">
+                <p>Checked Baggage</p>
+            </a>
+            <a href="">
+                <p>Sporting Equipments</p>
+            </a>
+            <a href="">
+                <p>Restricted Items</p>
+            </a>
+            <a href="">
+                <p>Dangerous Goods Policy</p>
+            </a>
+            <a href="">
+                <p>Special Assistance</p>
+            </a><br><br>
+            <h3>Onboard Experience</h3><br>
+            <a href="">
+                <p>Special Meals</p>
+            </a>
+            <a href="">
+                <p>Inflight Entertainment</p>
+            </a>
+        </div><br>
+        <div class="footsec">
+            <a href="">
+                <h3>Sky Smile Program</h3>
+            </a>
+        </div><br>
+        <div class="footsec">
+            <h3>Media Center</h3><br>
+            <a href="">
+                <p>Media Center</p>
+            </a>
+            <a href="">
+                <p>Announcements</p>
+            </a>
+        </div><br>
+        <div class="footsec">
+            <h3>Check out our mobile app</h3><br>
+            <img src="./images/appstore.png" alt="" width="150"><br>
+            <img src="./images/googleplay.png" alt="" width="150">
+        </div>
+    </footer>
+    <div id="copyrightbar">
+        <div id="leftsec">
+            <p>Copyright © 2024 MAI Airways. All rights reserved.</p>
+        </div>
+        <div id="rightsec">
+            <p style="font-size: 30px;
+           color: #034ea2;
+           font-family: Arial, Helvetica, sans-serif;">We Accept</p> <img src="./images/master.svg" alt="" width="100"><img src="./images/visa.svg" alt="" width="100"><img src="./images/mpu.svg" alt="" width="100"><img src="./images/jcb.svg" alt="" width="100"><img src="./images/unionpay.svg" alt="" width="100">
+        </div>
+    </div>
+</body>
+
+</html>
